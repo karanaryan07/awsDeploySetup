@@ -16,7 +16,7 @@ class NavBar extends React.Component
                                 <h4 className = "logo-title">WORDCAMP SCHEDULE VIEWER</h4>
                         </div>
                         <ul className="nav-links">
-                            <li className="nav-item active">
+                            <li className="nav-item active media-nav">
                                 <a className="nav-link" href="https://central.wordcamp.org/" target="_blank" rel="noopener noreferrer">WordCamp</a>
                             </li>
                             <li className="nav-item">
@@ -26,7 +26,7 @@ class NavBar extends React.Component
                                 <span className="route nav-link" onClick = {this.props.mapsDisplay}>Maps</span>
                             </li>
                         </ul>
-                        <div className = "repo">   
+                        <div className = "repo media-nav">   
                         <a href="https://github.com/karanaryan07/WordCamp-Schedule-viewer-with-React" target="_blank" rel="noopener noreferrer" class="btn btn-primary" role="button">Source Code</a>    
                         </div>
                     </nav>

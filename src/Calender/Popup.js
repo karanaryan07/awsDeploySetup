@@ -47,7 +47,7 @@ class PopupModal extends React.Component
                         <div className = "row row-button">
                                 <button
                                 onClick = {this.props.display} 
-                                className = "btn btn-primary">
+                                className = "close-popup btn btn-primary">
                                         Close
                                 </button>
                         </div>

@@ -12,7 +12,7 @@ class CalenderApp extends React.Component {
         <header>
           <div id="logo">
             <span className="icon">date_range</span>
-            <span>
+            <span className = "calender-heading">
               WordCamp <b>Calendar</b>
             </span>
           </div>

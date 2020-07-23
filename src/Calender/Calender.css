@@ -272,3 +272,24 @@ and (min-width : 1920px)
   flex-basis: calc(100% / 7);
   width: calc(100% / 7);
 }
+
+@media only screen
+and (max-device-width : 801px)
+and (orientation : portrait)
+{
+  .calender-heading
+  {
+    font-size: 17px!important;
+  }
+}
+
+@media only screen
+and (min-device-width : 640px)
+and (max-device-width :1080px)
+and (orientation : landscape)
+{
+  .calender-heading
+  {
+    font-size: 18px!important;
+  }
+}

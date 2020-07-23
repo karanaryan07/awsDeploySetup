@@ -52,7 +52,7 @@ class Calendar extends React.Component {
   }
 
   renderDays() {
-    const dateFormat = "EEEE";
+    const dateFormat = "E";
     const days = [];
 
     let startDate = dateFns.startOfWeek(this.state.currentMonth);

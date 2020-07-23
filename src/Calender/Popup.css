@@ -68,9 +68,28 @@ and (orientation : portrait)
     .popup-inner
     {
         top: 25%;
-        bottom: 58%;
-        left: 18%;
-        right: 18%;
+        bottom: 20%;
+        left: 7%;
+        right: 7%;
+    }
+    .key{
+        font-size: 12px;
+    }
+    .value{
+        font-size: 12px;
+    }
+    .key
+    {
+        width: 40%!important;
+    }
+    .Popup-heading
+    {
+        width: 95%!important;
+        font-size: 14px!important;
+    }
+    .close-popup
+    {
+        font-size: 15px!important;
     }
 }
 
@@ -83,6 +102,27 @@ and (orientation : landscape)
     {
         left: 18%;
         right: 18%;
+        top: 25%;
+        bottom: 20%;
+    }
+    .key{
+        font-size: 12px;
+    }
+    .value{
+        font-size: 12px;
+    }
+    .key
+    {
+        width: 30%!important;
+    }
+    .Popup-heading
+    {
+        width: 95%!important;
+        font-size: 14px!important;
+    }
+    .close-popup
+    {
+        font-size: 15px!important;
     }
 }
   .Popup-heading

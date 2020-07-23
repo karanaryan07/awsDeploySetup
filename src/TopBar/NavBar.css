@@ -77,3 +77,14 @@ li{
 {
     color: #0056b3;
 }
+
+
+
+@media only screen and 
+(max-width : 800px)
+{
+    .media-nav
+    {
+        display: none!important;
+    }
+}
