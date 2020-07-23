@@ -68,7 +68,7 @@ and (orientation : portrait)
     .popup-inner
     {
         top: 25%;
-        bottom: 20%;
+        bottom: 21%;
         left: 7%;
         right: 7%;
     }
@@ -84,7 +84,7 @@ and (orientation : portrait)
     }
     .Popup-heading
     {
-        width: 95%!important;
+        width: 94%!important;
         font-size: 14px!important;
     }
     .close-popup
@@ -94,7 +94,7 @@ and (orientation : portrait)
 }
 
 @media only screen
-and (min-device-width : 640px)
+and (min-device-width : 630px)
 and (max-device-width :1080px)
 and (orientation : landscape)
 {
